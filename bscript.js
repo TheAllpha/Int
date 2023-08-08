@@ -8,7 +8,7 @@ function getDayName(dayIndex) {
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   return days[dayIndex];
 }
-
+//hi
 async function getData() {
   console.log("1");
 
