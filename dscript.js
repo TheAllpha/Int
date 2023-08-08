@@ -9,7 +9,8 @@ function getDayName(dayIndex) {
   return days[dayIndex];
 }
 
-async function getCityName(latitude, longitude) {
+
+async function getCityName(latitude, longitude) { 
   const geocodeUrl = `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=${opencageApiKey}`;
   try {
     const response = await fetch(geocodeUrl);
