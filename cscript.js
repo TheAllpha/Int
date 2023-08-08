@@ -31,7 +31,7 @@ async function getData() {
   const response = await fetch(url);
   console.log("2");
 
-  const data = await response.json();
+  const data = await response.json(); 
 
   const latitude = data.latitude;
   const longitude = data.longitude;
